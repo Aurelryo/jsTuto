@@ -43,14 +43,6 @@ let total = 0
 total++ //ajoute 1 a la variable fontionne egalement avec les soustraction//
 //console.log(total//)
 
-//if else//
-let x = 6
-let y = 5
-
-if (x < y){
-    console.log("x est inferieur à y");
-} else{
-    console.log("x est superieur à y");}
 
     //-----construtor//
     class episode{
@@ -81,3 +73,43 @@ episodess.pop()
 //La propriété   length  d'un tableau indique le nombre d'éléments qu'il contient//
 let numberOfEpisodes =episodess.length;
 console.log(episodess);
+
+//if else//
+let x = 6
+let y = 5
+
+if (x < y){
+    console.log("x est inferieur à y");
+} else{
+    console.log("x est superieur à y");}
+
+
+    //les boucles//
+const numberOfPassengers = 10;
+for (let i = 0; i < numberOfPassengers; i++) {
+console.log("Passager embarqué !");
+}
+
+///BOUCLE FOR IN//
+const passengers = [
+    "Will Alexander",
+    "Sarah Kate'",
+    "Audrey Simon",
+    "Tao Perkington"
+]
+
+for (let i in passengers) {
+console.log("Embarquement du passager " + passengers[i]);
+}
+
+//les boucles for of
+const passengerss = [
+    "Will Alexander",
+    "Sarah Kate",
+    "Audrey Simon",
+    "Tao Perkington"
+]
+
+for (let passenger of passengerss) {
+console.log("Embarquement du passager " + passenger);
+}
